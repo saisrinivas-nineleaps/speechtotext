@@ -31,9 +31,7 @@ const VoiceInput = () => {
       <button onClick={()=>{startStopListening()}}>
         {isListening ? "stop listening" : "speak"}
       </button>
-      <div>
-        is this vis
-      </div>
+      
     </div>
   );
 };
